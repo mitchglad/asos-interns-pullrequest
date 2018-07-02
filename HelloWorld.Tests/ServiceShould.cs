@@ -15,7 +15,7 @@ namespace HelloWorld.Tests
 
             var actual = systemUnderTest.GetServiceString();
 
-            // Assert actual
+            Assert.AreEqual(actual, "World");
         }
 
     }

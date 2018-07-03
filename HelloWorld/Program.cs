@@ -10,7 +10,7 @@ namespace HelloWorld
 
             var place = service.GetServiceString();
             
-            Console.WriteLine("Hello, " + place);
+            Console.WriteLine("hello, " + place);
         }
     }
 }
